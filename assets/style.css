@@ -1,0 +1,83 @@
+/* general styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 150px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+/* header */
+.header-div {
+    margin-top: 100px;
+    border-bottom: 1px solid red;
+    margin-bottom: 50px;
+}
+
+/* timeslot */
+
+.calendar-item {
+    border-bottom: 1px black solid;
+    /* padding: 5px 0px; */
+}
+
+
+.time {
+    width: 12%;
+}
+
+
+.save {
+    width: 8%;
+    height: 70px;
+    border: none;
+}
+
+textarea {
+    width: 80%;
+    height: 80px;
+    resize: none;
+    border: none;
+    margin: 0px;
+    padding: 30px;
+}
+
+.grey-bg {
+    background: grey;
+}
+
+.red-bg {
+    background: red;
+}
+
+.green-bg {
+    background: green;
+}
+
+/* media queries */
+
+@media (max-width: 860px) {
+    body {
+        padding: 0px 16px;
+    }
+
+    .calendar-item {
+        flex-direction: column;
+    }
+
+    .time {
+        width: 100%;
+    }
+
+    .task {
+        width: 100%;
+    }
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+ }
+
+
+
