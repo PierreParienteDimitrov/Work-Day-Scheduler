@@ -10,6 +10,7 @@ Colour of time slots changes depending on the time of the day.
 # Links
 
 https://pierreparientedimitrov.github.io/Work-Day-Scheduler/
+
 https://github.com/PierreParienteDimitrov/Work-Day-Scheduler
 
 
