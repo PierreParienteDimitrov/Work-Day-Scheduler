@@ -44,10 +44,12 @@ p {
 }
 
 .button-save {
-    background: white;
+    background: blue;
     display: flex;
     align-items: center; /* Vertical */
     justify-content: center; /* Horizontal */
+    color: white;
+    border: none;
   }
 
 .hour {

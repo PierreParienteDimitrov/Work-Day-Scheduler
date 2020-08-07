@@ -67,6 +67,10 @@ for (i = 0; i < timeSlots.length; i++) {
   });
 
   btn.addClass("col-md-1 col-sm-12 text-center button-save");
+  var icon = $('<i>').addClass('fas fa-save')
+  btn.append(icon)
+
+
 
   // adding html elements to the page
   $(".calendar").append(newRow);
