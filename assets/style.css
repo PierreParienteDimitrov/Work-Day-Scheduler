@@ -1,53 +1,71 @@
-/* general styling */
+/* General Styling */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    padding: 0px 150px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 h1 {
-    font-size: 30px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* bootstrap reset */
+.row {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* header */
-.header-div {
-    margin-top: 100px;
-    border-bottom: 1px solid red;
-    margin-bottom: 50px;
+.header {
+  background: rgb(235, 235, 235);
+  padding: 100px 200px 20px 200px;
+  border-bottom: black solid 1px;
 }
 
-/* timeslot */
+/* calendar */
+.calendar {
+  padding: 30px 200px 20px 200px;
+  background: white;
+}
 
-.calendar-item {
-    border-bottom: 1px black solid;
-    /* padding: 5px 0px; */
+.new-row {
+  background: white;
+  height: 80px;
+  border-bottom: 1px solid black;
+
+}
+
+.button-save {
+    background: white;
+    display: flex;
+    align-items: center; /* Vertical */
+    justify-content: center; /* Horizontal */
+  }
+
+.hour {
+  display: flex;
+  align-items: center; /* Vertical */
+  justify-content: left; /* Horizontal */
+  /* text-align: left; */
+  margin: 0px;
+  padding: 10px 0px;
 }
 
 
-.time {
-    width: 12%;
-}
-
-
-.save {
-    width: 8%;
-    height: 70px;
-    border: none;
-}
 
 textarea {
-    width: 80%;
-    height: 80px;
-    resize: none;
-    border: none;
-    margin: 0px;
-    padding: 30px;
-}
-
-.grey-bg {
-    background: grey;
+  resize: none;
+  border: none;
+  width: 100%;
+  padding-top: 12px;
 }
 
 .red-bg {
@@ -58,26 +76,6 @@ textarea {
     background: green;
 }
 
-/* media queries */
-
-@media (max-width: 860px) {
-    body {
-        padding: 0px 16px;
-    }
-
-    .calendar-item {
-        flex-direction: column;
-    }
-
-    .time {
-        width: 100%;
-    }
-
-    .task {
-        width: 100%;
-    }
-    /* styles for mobile browsers smaller than 480px; (iPhone) */
- }
-
-
-
+.grey-bg {
+    background: lightgray;
+}
