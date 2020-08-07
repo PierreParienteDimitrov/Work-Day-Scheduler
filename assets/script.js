@@ -1,3 +1,9 @@
+var currentDay = moment().format('LLLL');
+
+$('#current-day').text(currentDay)
+
+
+
 var timeSlots = [
   "9am",
   "10am",
